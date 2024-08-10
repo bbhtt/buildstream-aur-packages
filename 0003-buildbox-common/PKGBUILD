@@ -1,5 +1,5 @@
 pkgname=buildbox-common
-pkgver=1.2.1
+pkgver=1.2.13
 pkgrel=1
 pkgdesc="Shared protocol-buffer definitions and various helper functions"
 arch=(x86_64)
@@ -7,7 +7,7 @@ url="https://buildgrid.build"
 license=('Apache')
 depends=('gflags' 'google-glog' 'grpc' 'gtest')
 makedepends=('benchmark' 'c-ares' 'cmake' 'git' 'gmock'  'ninja' 'tomlplusplus' 'nlohmann-json')
-source=("git+https://gitlab.com/BuildGrid/buildbox/buildbox-common#tag=${pkgver}&commit=8f5511980c19a8e90f0399b826364b8141a8c985")
+source=("git+https://gitlab.com/BuildGrid/buildbox/buildbox-common#tag=${pkgver}&commit=7ba39c7a10c404125d76357693c89aac483bcf32")
 sha256sums=('SKIP')
 
 build() {
